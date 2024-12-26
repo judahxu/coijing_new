@@ -6,6 +6,30 @@ const AboutPage = () => {
   const [activeSection] = useState('company');
   const [isNavSticky, setIsNavSticky] = useState(false);
 
+  const partners: { name: string; logo: string; color: string }[] = [
+    {
+      name:'河南多鲸信息技术有限公司',
+      logo:'/duojing.png',
+      color:'cadetblue'
+    },
+    {
+      name:'河南微潮汐信息技术有限公司',
+      logo:'/vchaoxi.png',
+      color:'beige'
+    },
+    {
+      name:'多鲸资本',
+      logo:'/ziben.png',
+      color:'white'
+    },
+    {
+      name:'河南邻取智能科技有限公司',
+      logo:'/linqugui.png',
+      color:'darkseagreen'
+    },
+
+  ];  
+
   // 监听滚动来控制导航栏
   useEffect(() => {
     const handleScroll = () => {
@@ -184,11 +208,11 @@ const AboutPage = () => {
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">合作伙伴</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((partner) => (
-              <div key={partner} className="bg-white p-8 rounded-lg shadow-sm flex items-center justify-center">
+            {partners.map((obj) => (
+              <div key={obj.name} className={`p-8 rounded-lg shadow-sm flex items-center justify-center`} style={{'background':obj.color}}>
                 <img
-                  src={`/api/placeholder/120/60`}
-                  alt={`Partner ${partner}`}
+                  src={obj.logo}
+                  alt={obj.name}
                   className="max-w-full h-auto"
                 />
               </div>
