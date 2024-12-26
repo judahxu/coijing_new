@@ -3,9 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { Award, Users, Target, Building } from 'lucide-react';
 
 const AboutPage = () => {
-  const [activeSection, setActiveSection] = useState('');
+  const [activeSection] = useState('company');
   const [isNavSticky, setIsNavSticky] = useState(false);
-  setActiveSection('company');
 
   // 监听滚动来控制导航栏
   useEffect(() => {
