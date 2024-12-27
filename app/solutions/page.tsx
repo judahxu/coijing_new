@@ -253,10 +253,10 @@ const SolutionPage = () => {
                       <h4 className="font-medium text-gray-900 mb-2">
                         {app}
                       </h4>
-                      <button className="text-blue-600 hover:text-blue-700 flex items-center text-sm">
+                      <a className="text-blue-600 hover:text-blue-700 flex items-center text-sm" href={`${app=='AI智能客服系统'?'https://iris.coijing.com':'/contact'}`} target={`${app=='AI智能客服系统'?'_blank':'_self'}`}>
                         了解更多
                         <ChevronRight className="w-4 h-4 ml-1" />
-                      </button>
+                      </a>
                     </div>
                   ))}
                 </div>

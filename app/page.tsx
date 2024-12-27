@@ -66,7 +66,7 @@ const SolutionCard = ({ icon: Icon, title, description }: SolutionCardProps) => 
     </div>
     <h3 className="text-lg font-semibold text-gray-900 mb-2">{title}</h3>
     <p className="text-gray-600">{description}</p>
-    <a href="#" className="mt-4 inline-flex items-center text-blue-600 hover:text-blue-700">
+    <a href={`${title=='智能客户体验'?'https://iris.coijing.com':'#'}`} target={`${title=='智能客户体验'?'_blank':'_self'}`} className="mt-4 inline-flex items-center text-blue-600 hover:text-blue-700">
       了解更多
       <ChevronRight className="ml-1 h-4 w-4" />
     </a>

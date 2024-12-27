@@ -262,9 +262,9 @@ const CaseShowcase = () => {
                 <div className="text-sm text-gray-500 mb-4">
                   {caseItem.metrics}
                 </div>
-                <button className="text-blue-600 hover:text-blue-700 font-medium">
+                <a className="text-blue-600 hover:text-blue-700 font-medium" href={`${caseItem.title=='智能客服系统升级'?'https://iris.coijing.com':'/contact'}`}  target={`${caseItem.title=='智能客服系统升级'?'_blank':'_self'}`}>
                   查看详情 →
-                </button>
+                </a>
               </div>
             </div>
           ))}
