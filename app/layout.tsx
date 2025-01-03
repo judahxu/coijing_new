@@ -30,10 +30,8 @@ export const metadata: Metadata = {
     siteName: '可爱鲸科技',
     title: '可爱鲸科技 - 用智能体重塑企业未来',
     description: '专注智能体开发，助力企业智能化转型',
-    images: [{
-      url: '/og-image.jpg',
-    }],
   },
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
 export default function RootLayout({
