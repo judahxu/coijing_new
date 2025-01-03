@@ -145,6 +145,11 @@ const SolutionPage = () => {
     }
   ];
 
+  const handleChatClick = () => {
+    // 检查 voiceflow 对象是否已加载
+      window?.voiceflow?.chat?.open()
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Banner Section */}
@@ -276,9 +281,9 @@ const SolutionPage = () => {
             <p className="text-gray-600 mb-6">
               我们的解决方案专家随时为您提供专业咨询服务
             </p>
-            <a href="/contact" className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+            <button onClick={handleChatClick} className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
               立即咨询
-            </a>
+            </button>
           </div>
         </div>
       </div>

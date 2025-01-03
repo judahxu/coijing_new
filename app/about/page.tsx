@@ -41,6 +41,12 @@ const AboutPage = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+
+  const handleChatClick = () => {
+    // 检查 voiceflow 对象是否已加载
+      window?.voiceflow?.chat?.open()
+  };
+
   return (
     <div className="w-full">
       {/* Hero Section */}
@@ -226,9 +232,9 @@ const AboutPage = () => {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">开启智能化升级之旅</h2>
           <p className="mb-8 text-lg">立即与我们取得联系，探讨您的智能化需求</p>
-          <a href="/contact" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+          <button onClick={handleChatClick} className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
             联系我们
-          </a>
+          </button>
         </div>
       </section>
     </div>

@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer'
+import ChatWidget from "../components/ChatWidget";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,9 +17,23 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "河南可爱鲸信息技术有限公司",
-  description: "官网",
-  // icons: [{ rel: "icon", url: "/favicon.ico" }],
+  title: {
+    default: "可爱鲸科技 - 用智能体重塑企业未来 | AI Agents开发专家",
+    template: "%s | 可爱鲸科技"
+  },
+  description: "可爱鲸科技专注于智能体(AI Agents)开发，融合大语言模型、RPA自动化、物联网技术，为企业提供智能化解决方案，助力数字化转型。",
+  keywords: ["智能体", "AI Agents", "企业智能化", "RPA自动化", "智能客服", "数据分析"],
+  openGraph: {
+    type: 'website',
+    locale: 'zh_CN',
+    url: 'https://www.coijing.com/',
+    siteName: '可爱鲸科技',
+    title: '可爱鲸科技 - 用智能体重塑企业未来',
+    description: '专注智能体开发，助力企业智能化转型',
+    images: [{
+      url: '/og-image.jpg',
+    }],
+  },
 };
 
 export default function RootLayout({
@@ -33,6 +48,7 @@ export default function RootLayout({
       >
         <Navigation />
         {children}
+        <ChatWidget />
         <Footer />
       </body>
     </html>

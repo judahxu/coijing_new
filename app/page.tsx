@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import { ChevronRight, MessageSquare, Database, Network, Cpu } from 'lucide-react';
 import Navigation from '@/components/Navigation';
@@ -25,7 +26,7 @@ interface SolutionCardProps {
 //   </header>
 // );
 
-const Hero = () => (
+const Hero:React.FC<{ onChatClick: () => void }> = ({ onChatClick }) => (
   <div className="relative bg-white pt-16">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
       <div className="lg:grid lg:grid-cols-12 lg:gap-8">
@@ -39,9 +40,9 @@ const Hero = () => (
           </p>
           <div className="mt-8 sm:flex sm:justify-center lg:justify-start">
             <div className="rounded-md shadow">
-              <a href="#contact" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
+              <button onClick={onChatClick} className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
                 开始咨询
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -144,7 +145,7 @@ const TechStack = () => (
   </section>
 );
 
-const ContactSection = () => (
+const ContactSection:React.FC<{ onChatClick: () => void }> = ({ onChatClick }) => (
   <section id="contact" className="py-20 bg-gray-50">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto text-center">
@@ -152,9 +153,9 @@ const ContactSection = () => (
         <p className="mt-4 text-xl text-gray-600">期待与您的合作</p>
         <div className="mt-8 flex justify-center">
           <div className="inline-flex rounded-md shadow">
-            <a href="/contact" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+            <button onClick={onChatClick} className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
               立即联系
-            </a>
+            </button>
           </div>
         </div>
       </div>
@@ -217,14 +218,18 @@ const ContactSection = () => (
 // );
 
 const Homepage = () => {
+  const handleChatClick = () => {
+    // 检查 voiceflow 对象是否已加载
+      window?.voiceflow?.chat?.open()
+  };
   return (
     <div className="min-h-screen bg-white">
       <Navigation  variant="home" />
       <main>
-        <Hero /> 
+        <Hero onChatClick={handleChatClick}  /> 
         <Solutions />
         <TechStack />
-        <ContactSection />
+        <ContactSection onChatClick={handleChatClick}  />
       </main>
       {/* <Footer /> */}
     </div>
