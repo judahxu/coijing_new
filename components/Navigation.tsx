@@ -57,13 +57,18 @@ const Navigation = ({ variant = 'default' }: NavigationProps) => {
                 key={item.href}
                 href={item.href}
                 className={`${
-                  variant == 'home'?'text-gray-700 hover:text-blue-600':
-                  isActive(item.href)
-                    ? 'text-blue-600'
+                  variant == 'home'
+                    ? isActive(item.href)
+                      ? 'text-blue-600 font-medium border-b-2 border-blue-600'
+                      : 'text-gray-700 hover:text-blue-600'
+                    : isActive(item.href)
+                    ? isScrolled
+                      ? 'text-blue-600 font-medium border-b-2 border-blue-600'
+                      : 'text-white font-medium border-b-2 border-white'
                     : isScrolled
                     ? 'text-gray-700 hover:text-blue-600'
                     : 'text-white hover:text-blue-100'
-                } transition-colors`}
+                } transition-colors py-1`}
               >
                 {item.label}
               </Link>
