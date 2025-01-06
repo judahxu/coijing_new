@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "title": {
+      "prefix": "用智能体重塑",
+      "highlight": "企业未来"
+    },
+    "subtitle": "致力于构建以智能体为核心的智慧中枢，让企业和个人自然融入智能时代。",
+    "cta": "开始咨询"
+  },
+  "solutions": {
+    "title": "解决方案",
+    "subtitle": "为多行业提供全场景智能化解决方案",
+    "cards": {
+      "customerExperience": {
+        "title": "智能客户体验",
+        "description": "打造个性化、全渠道的客户服务与营销体验，优化客户旅程与满意度。"
+      },
+      "dataDecision": {
+        "title": "数据驱动决策",
+        "description": "利用AI分析与预测，提供实时洞察与优化建议，提升决策的科学性与准确性。"
+      },
+      "logistics": {
+        "title": "智能物流供应链",
+        "description": "优化物流调度、库存管理及供应链全链条的智能化升级，降低运营成本。"
+      }
+    },
+    "learnMore": "了解更多"
+  },
+  "tech": {
+    "title": "核心技术能力",
+    "subtitle": "融合前沿技术，打造智能化解决方案",
+    "features": {
+      "llm": {
+        "title": "大语言模型",
+        "description": "深度自然语言理解与交互，使智能体能像人类一样沟通并分析复杂信息。"
+      },
+      "rpa": {
+        "title": "RPA自动化",
+        "description": "跨系统、跨流程的自动执行能力，大幅提升运营效率并降低人工成本。"
+      },
+      "data": {
+        "title": "数据驱动优化",
+        "description": "结合大数据与AI预测模型，为决策提供精准洞察和持续优化方案。"
+      },
+      "iot": {
+        "title": "物联网集成",
+        "description": "智能体可直连多类智能设备，实现软硬件一体化的全场景解决方案。"
+      }
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "期待与您的合作",
+    "cta": "立即联系"
+  }
+}

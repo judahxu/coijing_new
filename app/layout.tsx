@@ -4,6 +4,7 @@ import "./globals.css";
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer'
 import ChatWidget from "../components/ChatWidget";
+import { LanguageProvider } from './i18n/LanguageContext';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -44,10 +45,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navigation />
-        {children}
-        <ChatWidget />
-        <Footer />
+        <LanguageProvider>
+          <Navigation />
+          {children}
+          <ChatWidget />
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
   );

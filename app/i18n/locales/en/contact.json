@@ -1,0 +1,19 @@
+{
+  "title": "Contact Us",
+  "subtitle": "Looking forward to creating an intelligent future with you. Please contact us through the following methods",
+  "contactInfo": {
+    "title": "Contact Information",
+    "phone": {
+      "label": "Phone",
+      "value": "15901117209"
+    },
+    "email": {
+      "label": "Email",
+      "value": "service@coijing.com" 
+    },
+    "address": {
+      "label": "Address",
+      "value": "3A07, Building 1, West Zone Incubation, Henan National University Science Park, Wutong Street, Zhongyuan District, Zhengzhou City, Henan Province"
+    }
+  }
+}

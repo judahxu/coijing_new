@@ -1,0 +1,21 @@
+{
+  "pageTitle": "Customer Cases",
+  "pageSubtitle": "Explore how Coijing helps enterprises achieve intelligent transformation",
+  "categories": {
+    "all": "All Cases",
+    "smart-customer": "Smart Customer Experience",
+    "data-driven": "Data-Driven Decision",
+    "smart-logistics": "Smart Logistics & Supply Chain",
+    "smart-education": "Smart Education & Growth",
+    "smart-life": "Smart Life Services",
+    "smart-healthcare": "Smart Healthcare"
+  },
+  "searchPlaceholder": "Search cases",
+  "emptyState": "No cases match your criteria. Please try adjusting your filters.",
+  "viewMore": "Learn More",
+  "industry": "Industry",
+  "technology": "Technology",
+  "scenario": "Scenario", 
+  "description": "Description",
+  "metrics": "Metrics"
+}

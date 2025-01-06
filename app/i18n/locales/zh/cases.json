@@ -1,0 +1,21 @@
+{
+  "pageTitle": "客户案例展示",
+  "pageSubtitle": "探索可爱鲸如何帮助企业实现智能化转型",
+  "categories": {
+    "all": "全部案例",
+    "smart-customer": "智能客户体验",
+    "data-driven": "数据驱动决策",
+    "smart-logistics": "智能物流供应链",
+    "smart-education": "智能教育成长",
+    "smart-life": "智慧生活服务",
+    "smart-healthcare": "智慧医疗健康"
+  },
+  "searchPlaceholder": "搜索案例",
+  "emptyState": "暂无符合条件的案例，请尝试调整筛选条件",
+  "viewMore": "了解更多",
+  "industry": "行业",
+  "technology": "技术",
+  "scenario": "场景",
+  "description": "描述",
+  "metrics": "效果指标"
+}

@@ -1,0 +1,69 @@
+{
+  "hero": {
+      "title": "Reshaping Enterprise Future with AI Agents",
+      "subtitle": "Coijing is committed to building an intelligent hub centered on AI agents, enabling enterprises and individuals to naturally integrate into the intelligent era"
+    },
+    "nav": {
+      "company": "About Us",
+      "vision": "Vision & Mission",
+      "advantage": "Core Advantages",
+      "partners": "Partners"
+    },
+    "company": {
+      "title": "About Coijing",
+      "description": "Coijing is a technology company focused on developing AI Agents, dedicated to providing comprehensive intelligent solutions for multiple industries by integrating Large Language Models (LLM), RPA (Robotic Process Automation), IoT (Internet of Things), and big data analytics.",
+      "stats": {
+        "clients": {
+          "number": "100+",
+          "label": "Enterprise Clients"
+        },
+        "patents": {
+          "number": "50+",
+          "label": "Tech Patents"
+        }
+      }
+    },
+    "vision": {
+      "title": "Vision & Mission",
+      "sections": {
+        "vision": {
+          "title": "Vision",
+          "content": "Build an intelligent hub centered on AI agents, enabling enterprises and individuals to naturally integrate into the intelligent era."
+        },
+        "mission": {
+          "title": "Mission",
+          "content": "Redefine future productivity with AI agents."
+        },
+        "values": {
+          "title": "Values",
+          "content": "Innovation, Professionalism, Collaboration, Growth."
+        }
+      }
+    },
+    "advantage": {
+      "title": "Core Advantages",
+      "items": {
+        "innovation": {
+          "title": "Technical Innovation",
+          "description": "Build highly integrated, modular AI agent solutions with AI+RPA at the core, integrating IoT and big data technologies."
+        },
+        "coverage": {
+          "title": "Full Scenario Coverage",
+          "description": "Cover multiple high-potential industries, providing complete solutions from enterprise management to device interconnection."
+        },
+        "implementation": {
+          "title": "Business Implementation",
+          "description": "Successful benchmark cases demonstrate product value, ensuring practical effectiveness of solutions."
+        },
+        "ecosystem": {
+          "title": "Ecosystem Building",
+          "description": "Collaborate with industry leaders to build a closed-loop ecosystem from data collection to intelligent analysis and execution optimization."
+        }
+      }
+    },
+    "contact": {
+      "title": "Start Your Intelligent Upgrade Journey",
+      "subtitle": "Contact us now to discuss your intelligent transformation needs",
+      "button": "Contact Us"
+    }
+}

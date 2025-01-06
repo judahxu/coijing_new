@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "title": "Core Technical Capabilities",
+    "description": "Integrating Large Language Models, RPA, IoT and data analytics technologies to empower intelligent agents with comprehensive capabilities from understanding to execution"
+  },
+  "techs": {
+    "llm": {
+      "name": "Large Language Model",
+      "title": "Large Language Model",
+      "desc": "Deep natural language understanding and interaction, enabling intelligent agents to communicate and analyze complex information like humans",
+      "features": [
+        "Multi-turn dialogue understanding",
+        "Complex task planning",
+        "Knowledge reasoning and analysis",
+        "Multimodal interaction"
+      ],
+      "applications": [
+        "Intelligent customer service system",
+        "Content generation platform",
+        "Knowledge Q&A engine",
+        "Decision support system"
+      ]
+    },
+    "rpa": {
+      "name": "RPA Automation", 
+      "title": "RPA Automation",
+      "desc": "Cross-system and cross-process automatic execution capabilities, greatly improving operational efficiency and reducing manual costs",
+      "features": [
+        "Process automation",
+        "Task orchestration",
+        "System integration",
+        "Exception handling"
+      ],
+      "applications": [
+        "Business process automation",
+        "Data processing automation",
+        "Automated report generation",
+        "System integration"
+      ]
+    },
+    "data": {
+      "name": "Data Analysis",
+      "title": "Data Analysis",
+      "desc": "Combining big data and AI prediction models to provide accurate insights and continuous optimization solutions for decision-making",
+      "features": [
+        "Data mining analysis",
+        "Predictive modeling",
+        "Visualization",
+        "Real-time monitoring"
+      ],
+      "applications": [
+        "Business decision analysis",
+        "User behavior analysis",
+        "Risk warning system",
+        "Marketing strategy optimization"
+      ]
+    },
+    "iot": {
+      "name": "IoT Integration",
+      "title": "IoT Integration", 
+      "desc": "Intelligent agents can directly connect to multiple smart devices to achieve software and hardware integrated solutions for all scenarios",
+      "features": [
+        "Device connection management",
+        "Data collection and analysis",
+        "Remote control",
+        "Scene linkage"
+      ],
+      "applications": [
+        "Smart home control",
+        "Industrial equipment monitoring",
+        "Environmental monitoring system",
+        "Smart park management"
+      ]
+    }
+  },
+  "integration": {
+    "title": "Technology Integration Advantages",
+    "advantages": [
+      {
+        "title": "Technical Innovation",
+        "desc": "Centered on AI+RPA, integrating IoT and big data technology to build highly integrated, modular intelligent agent solutions"
+      },
+      {
+        "title": "Full Scenario Coverage",
+        "desc": "Covering multiple high-potential industries, providing complete solutions from enterprise management to device linkage for diverse scenarios"
+      },
+      {
+        "title": "Business Implementation",
+        "desc": "Successful benchmark cases demonstrate product practical value, helping enterprises achieve digital transformation quickly"
+      },
+      {
+        "title": "Ecosystem Building",
+        "desc": "Cooperating with industry leaders to build a closed-loop ecosystem from data collection, intelligent analysis to execution optimization"
+      }
+    ]
+  },
+  "common": {
+    "features": "Core Capabilities",
+    "applications": "Application Scenarios"
+  }
+}

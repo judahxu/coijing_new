@@ -1,0 +1,19 @@
+{
+  "title": "联系我们",
+  "subtitle": "期待与您携手共创智能未来，欢迎通过以下方式与我们取得联系",
+  "contactInfo": {
+    "title": "联系方式",
+    "phone": {
+      "label": "电话",
+      "value": "15901117209"
+    },
+    "email": {
+      "label": "邮箱",
+      "value": "service@coijing.com"
+    },
+    "address": {
+      "label": "地址",
+      "value": "河南省郑州市中原区梧桐街河南省国家大学科技园西区孵化1号楼3A07"
+    }
+  }
+}

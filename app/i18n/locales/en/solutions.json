@@ -1,0 +1,133 @@
+{
+  "banner": {
+    "title": "Solutions",
+    "subtitle": "Providing comprehensive intelligent solutions for enterprises and individuals by integrating AI and automation technology"
+  },
+  "solutions": {
+    "smart-customer": {
+      "title": "Smart Customer Experience",
+      "description": "Create personalized, omni-channel customer service and marketing experiences to optimize customer journey and satisfaction",
+      "painPoints": [
+        "Slow customer service response",
+        "Low personalization",
+        "Inconsistent service experience"
+      ],
+      "benefits": [
+        "24/7 AI customer service",
+        "Personalized service for each customer",
+        "Consistent omni-channel experience"
+      ],
+      "applications": [
+        "AI Customer Service System",
+        "Personalized Recommendation Engine",
+        "Customer Lifecycle Management Platform"
+      ]
+    },
+    "data-driven": {
+      "title": "Data-Driven Decision Making",
+      "description": "Utilize AI analysis and prediction to provide real-time insights and optimization suggestions, improving decision-making accuracy",
+      "painPoints": [
+        "Low decision efficiency",
+        "Delayed data analysis",
+        "Low prediction accuracy"
+      ],
+      "benefits": [
+        "Real-time data analysis",
+        "Intelligent decision support",
+        "Accurate prediction analysis"
+      ],
+      "applications": [
+        "Real-time Monitoring Platform",
+        "Smart Production Planning System",
+        "Market Trend Prediction Tool"
+      ]
+    },
+    "smart-logistics": {
+      "title": "Smart Logistics & Supply Chain",
+      "description": "Optimize logistics scheduling, inventory management and supply chain intelligence upgrade to reduce operating costs",
+      "painPoints": [
+        "Low inventory management efficiency",
+        "High logistics costs",
+        "Supply chain coordination difficulties"
+      ],
+      "benefits": [
+        "Smart inventory optimization",
+        "Reduced logistics costs",
+        "Supply chain visualization"
+      ],
+      "applications": [
+        "Smart Inventory Management System",
+        "Transport Route Optimization Assistant",
+        "Supply Chain Collaboration Platform"
+      ]
+    },
+    "smart-education": {
+      "title": "Smart Education & Growth Assistant",
+      "description": "Provide AI agent-based solutions focusing on personalized learning, education planning and capability enhancement",
+      "painPoints": [
+        "Uneven distribution of educational resources",
+        "Difficulty in evaluating learning outcomes",
+        "Challenges in personalized education"
+      ],
+      "benefits": [
+        "Personalized learning path",
+        "Real-time learning assessment",
+        "Smart education planning"
+      ],
+      "applications": [
+        "Smart Learning Assistant",
+        "Family Education Advisor",
+        "Smart Exam Preparation Assistant"
+      ]
+    },
+    "smart-life": {
+      "title": "Smart Life & Home Services",
+      "description": "Extend intelligent agent capabilities to daily life scenarios, providing convenient, comfortable and secure smart experiences",
+      "painPoints": [
+        "Fragmented life scenarios",
+        "Complex device management",
+        "Inconsistent service experience"
+      ],
+      "benefits": [
+        "One-stop life services",
+        "Smart home integration",
+        "Convenient life experience"
+      ],
+      "applications": [
+        "Smart Voice Assistant",
+        "Home Device Control Platform",
+        "Health Monitoring & Management Assistant"
+      ]
+    },
+    "smart-healthcare": {
+      "title": "Smart Healthcare & Health Management",
+      "description": "Provide intelligent diagnosis, telemedicine and health data management services in healthcare to improve medical quality and efficiency",
+      "painPoints": [
+        "Complex medical procedures",
+        "Tight medical resources",
+        "Discontinuous health management"
+      ],
+      "benefits": [
+        "AI-assisted diagnosis",
+        "Telemedicine services",
+        "Health data management"
+      ],
+      "applications": [
+        "AI Health Consultation Assistant",
+        "Medical Imaging Analysis Tool",
+        "Smart Follow-up & Health Data Analysis Platform"
+      ]
+    }
+  },
+  "common": {
+    "painPoints": "Pain Points",
+    "benefits": "Solution Benefits",
+    "applications": "Applications",
+    "learnMore": "Learn More",
+    "contact": {
+      "title": "Need More Information?",
+      "subtitle": "Our solution experts are ready to provide professional consultation",
+      "button": "Contact Us Now"
+    }
+  }
+}

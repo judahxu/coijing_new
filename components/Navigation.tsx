@@ -4,6 +4,8 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
+import LanguageSwitch from './LanguageSwitch'
+import { useTranslation } from 'react-i18next'
 
 interface NavigationProps {
   variant?: 'default' | 'home';
@@ -13,7 +15,7 @@ const Navigation = ({ variant = 'default' }: NavigationProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
-
+  const { t } = useTranslation('nav'); // 指定使用nav命名空间
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -24,11 +26,11 @@ const Navigation = ({ variant = 'default' }: NavigationProps) => {
   }, []);
 
   const navItems = [
-    { href: '/solutions', label: '解决方案' },
-    { href: '/tech', label: '技术能力' },
-    { href: '/cases', label: '案例展示' },
-    { href: '/about', label: '关于我们' },
-    { href: '/contact', label: '联系我们' },
+    { href: '/solutions', label: 'solutions' },
+    { href: '/tech', label: 'tech' },
+    { href: '/cases', label: 'cases' },
+    { href: '/about', label: 'about' },
+    { href: '/contact', label: 'contact' },
   ];
 
   const isActive = (path: string) => {
@@ -70,9 +72,10 @@ const Navigation = ({ variant = 'default' }: NavigationProps) => {
                     : 'text-white hover:text-blue-100'
                 } transition-colors py-1`}
               >
-                {item.label}
+                {t(item.label)}
               </Link>
             ))}
+            <LanguageSwitch variant={variant} isScrolled={isScrolled} />
           </div>
 
           {/* Mobile Navigation Toggle */}
@@ -103,9 +106,10 @@ const Navigation = ({ variant = 'default' }: NavigationProps) => {
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
-                  {item.label}
+                  {t(item.label)}
                 </Link>
               ))}
+              <LanguageSwitch />
             </div>
           </div>
         )}

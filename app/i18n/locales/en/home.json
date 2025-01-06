@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "title": {
+      "prefix": "Reshape Enterprise Future with",
+      "highlight": "AI Agents"
+    },
+    "subtitle": "Dedicated to building an intelligent hub centered on AI agents, enabling enterprises and individuals to naturally integrate into the intelligent era.",
+    "cta": "Get Started"
+  },
+  "solutions": {
+    "title": "Solutions",
+    "subtitle": "Providing comprehensive intelligent solutions for multiple industries",
+    "cards": {
+      "customerExperience": {
+        "title": "Intelligent Customer Experience",
+        "description": "Create personalized, omni-channel customer service and marketing experiences to optimize customer journey and satisfaction."
+      },
+      "dataDecision": {
+        "title": "Data-Driven Decision Making",
+        "description": "Leverage AI analysis and prediction to provide real-time insights and optimization suggestions, enhancing decision-making accuracy."
+      },
+      "logistics": {
+        "title": "Smart Logistics & Supply Chain",
+        "description": "Optimize logistics scheduling, inventory management, and supply chain upgrades to reduce operational costs."
+      }
+    },
+    "learnMore": "Learn More"
+  },
+  "tech": {
+    "title": "Core Technology Capabilities",
+    "subtitle": "Integrating cutting-edge technologies to create intelligent solutions",
+    "features": {
+      "llm": {
+        "title": "Large Language Models",
+        "description": "Deep natural language understanding and interaction, enabling AI agents to communicate and analyze complex information like humans."
+      },
+      "rpa": {
+        "title": "RPA Automation",
+        "description": "Cross-system, cross-process automation capabilities to significantly improve operational efficiency and reduce manual costs."
+      },
+      "data": {
+        "title": "Data-Driven Optimization",
+        "description": "Combining big data and AI prediction models to provide precise insights and continuous optimization solutions."
+      },
+      "iot": {
+        "title": "IoT Integration",
+        "description": "AI agents can directly connect to multiple smart devices, achieving integrated software and hardware solutions."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Looking forward to collaborating with you",
+    "cta": "Contact Now"
+  }
+}
